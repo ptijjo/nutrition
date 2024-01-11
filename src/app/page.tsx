@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import "../styles/index.scss";
 import Presentation from "@/components/Presentation";
 import Products from "@/components/Products";
+import Contact from "@/components/Contact";
 
 
 const Home: React.FC = () => {
@@ -9,7 +10,8 @@ const Home: React.FC = () => {
     <>
       <Header />
       <Presentation />
-      <Products/>
+      <Products />
+      <Contact />
     </>
   )
 }

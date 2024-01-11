@@ -1,0 +1,9 @@
+.contact{
+    width: 100vw;
+    height: 93vh;
+
+    @include centrer-div;
+
+    flex-direction: column;
+    
+}
