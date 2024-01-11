@@ -1,0 +1,30 @@
+.header{
+    border: 1px solid red;
+
+    position:fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    aspect-ratio: 8/1;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: white;
+
+    z-index:100;
+    
+    .navigation{
+        width: 80%;
+        .menu_nav{
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
