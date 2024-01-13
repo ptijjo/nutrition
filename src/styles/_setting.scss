@@ -23,11 +23,19 @@ $secondary_color: rgb(214, 214, 214);
 
 
 body {
+  min-width: 320px;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  a:visited{
+    color: black;
+  }
+  a:hover{
+    cursor: pointer;
+  }
 }
   
 

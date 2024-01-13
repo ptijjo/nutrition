@@ -50,6 +50,7 @@ export const products: produits[] = [
         imageUrl: "/pictures/produits/IMG-20240108-WA0006.jpg",
         description: ""
     },
+   
 
 ];
 

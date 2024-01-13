@@ -1,10 +1,9 @@
 .products{
     width: 100vw;
-    height: 93vh;
-
+    height: 100vh;
     @include centrer-div;
-
     flex-direction: column;
+    background-color: beige;
     
 
    .carousel-root{
@@ -19,4 +18,18 @@
 
 .carousel-status{
     display: none;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+  .carousel-root{
+    .carousel{
+        .control-dots{
+            .dot{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+  }
 }

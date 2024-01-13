@@ -22,6 +22,7 @@ const Products: React.FC<MyCarouselProps> = ({
   return (
 
     <div className='products' id='products'>
+      <h2>Produits</h2>
       <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop}>
         {
           products.map((slide) => (
