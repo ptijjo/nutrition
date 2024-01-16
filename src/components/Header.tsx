@@ -6,7 +6,6 @@ const Header: React.FC = () => {
       Logo
       <nav className='navigation'>
         <ul className='menu_nav'>
-          <li><a href="#">Accueil</a></li>
           <li><a href="#products">Produits</a></li>
           <li><a href="#results">Avis</a></li>
           <li><a href="#contact">Contact</a></li>

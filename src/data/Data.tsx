@@ -13,6 +13,11 @@ interface Avis {
     avis: string;
 }
 
+interface Profil {
+    imageUrl: string;
+    description?: string;
+}
+
 export const products: produits[] = [
     {
         id: 1,
@@ -86,3 +91,7 @@ export const avis: Avis[] = [
         avis: ""
     },
 ]
+
+export const profil: Profil={
+    imageUrl:"/pictures/profilChoups.jpeg",
+}
