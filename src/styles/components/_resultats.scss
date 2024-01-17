@@ -1,0 +1,6 @@
+.resultats{
+    width: 100vw;
+    height: 100vh;
+    @include centrer-div;
+    flex-direction: column;
+}

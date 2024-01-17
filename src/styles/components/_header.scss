@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
     background-color: white;
 
@@ -23,6 +23,21 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+        }
+    }
+
+    .logo-content{
+        width: 20%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        @include centrer-div;
+
+        .logo{
+            object-fit: cover;
+            object-position: center center;
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
         }
     }
 }
