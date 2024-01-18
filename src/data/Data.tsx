@@ -1,5 +1,12 @@
 
-interface produits {
+interface produits{
+    id: number;
+    nom: string;
+    imageUrl: string;
+    description: string;
+}
+
+interface Detox{
     id: number;
     nom: string;
     imageUrl: string;
@@ -55,7 +62,7 @@ export const products: produits[] = [
         imageUrl: "/pictures/produits/IMG-20240108-WA0006.jpg",
         description: ""
     },
-   
+
 
 ];
 
@@ -63,35 +70,45 @@ export const avis: Avis[] = [
     {
         id: 1,
         nom: "",
-        imageUrl: "src/pictures/resulats/IMG-20240108-WA0010.jpg",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0002.jpg",
         avis: ""
     },
     {
         id: 2,
         nom: "",
-        imageUrl: "src/pictures/resulats/IMG-20240108-WA0011.jpg",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0003.jpg",
         avis: ""
     },
     {
         id: 3,
         nom: "",
-        imageUrl: "src/pictures/resulats/IMG-20240108-WA0012.jpg",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0004.jpg",
         avis: ""
     },
-    {
-        id: 4,
-        nom: "",
-        imageUrl: "src/pictures/resulats/IMG-20240108-WA0013.jpg",
-        avis: ""
-    },
-    {
-        id: 5,
-        nom: "",
-        imageUrl: "src/pictures/resulats/IMG-20240108-WA0014.jpg",
-        avis: ""
-    },
-]
 
-export const profil: Profil={
-    imageUrl:"/pictures/profilChoups.jpeg",
+];
+
+export const tox: Detox[] = [
+    {
+        id: 1,
+        nom: "",
+        imageUrl: "/pictures/detox/IMG-20240117-WA0011.jpg",
+        description: ""
+    },
+    {
+        id: 2,
+        nom: "",
+        imageUrl: "/pictures/detox/IMG-20240117-WA0012.jpg",
+        description: ""
+    },
+    {
+        id: 3,
+        nom: "",
+        imageUrl: "/pictures/detox/IMG-20240117-WA0013.jpg",
+        description: ""
+    },
+];
+
+export const profil: Profil = {
+    imageUrl: "/pictures/profilChoups.jpeg",
 }

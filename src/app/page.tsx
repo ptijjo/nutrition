@@ -11,9 +11,9 @@ const Home: React.FC = () => {
   return (
     <>
       <Header />
-      <Reseau/>
+
       <Presentation />
-      <Resultats/>
+      <Resultats />
       <Products />
       <Contact />
     </>

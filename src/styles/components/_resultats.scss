@@ -3,4 +3,27 @@
     height: 100vh;
     @include centrer-div;
     flex-direction: column;
+
+    .titre{
+        color: blueviolet;
+        margin-top: 15%;
+        
+    }
+
+    .avant_apres-detox{
+        @include centrer-div;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        font-size: large;
+
+        .avant_apres{
+
+        }
+
+        .detox{
+
+        }
+    }
 }
