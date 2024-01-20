@@ -5,6 +5,7 @@ import Products from "@/components/Products";
 import Contact from "@/components/Contact";
 import Resultats from "@/components/Resultats";
 import Reseau from "@/components/Reseau";
+import Footer from "@/components/Footer";
 
 
 const Home: React.FC = () => {
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
       <Resultats />
       <Products />
       <Contact />
+      <Footer/>
     </>
   )
 }
