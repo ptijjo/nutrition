@@ -30,37 +30,37 @@ export const products: produits[] = [
         id: 1,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0001.jpg",
-        description: ""
+        description: "Bruleur de grisse pour les gros ventres"
     },
     {
         id: 2,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0002.jpg",
-        description: ""
+        description: "Thé pour avoir le ventre plat"
     },
     {
         id: 3,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0003.jpg",
-        description: ""
+        description: "Omega3 pour bien faire caca"
     },
     {
         id: 4,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0004.jpg",
-        description: "gros ventre"
+        description: "Baies pour drainer ton corps des saletés"
     },
     {
         id: 5,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0005.jpg",
-        description: ""
+        description: "Barre protéinés pour avoir de la force"
     },
     {
         id: 6,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0006.jpg",
-        description: ""
+        description: "Baie pour manger moins et dégonfler le ventre"
     },
 
 

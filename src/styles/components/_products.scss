@@ -11,8 +11,26 @@
 
         @include centrer-div;
         flex-direction: column;
-       
+    }
 
+    p.description{
+        display: none;
+        
+    }
+
+    div.carousel.carousel-slider{
+
+        &:hover{
+            p.description{
+                display: flex;
+                position: absolute;
+                top: 60%;
+                left: 10%;
+                background-color: black;
+                color: white;
+                opacity: 60%;
+            }
+        }
     }
 }
 

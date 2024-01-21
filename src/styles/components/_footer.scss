@@ -1,0 +1,26 @@
+.footer{
+    @include centrer-div;
+    flex-direction: column;
+    
+
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    opacity: 65%;
+    color: white;
+
+    .presentation{
+        margin: 0;
+        @include centrer-div;
+        text-align: center;
+    }
+    .condition-politique{
+        @include centrer-div;
+        padding: 10px 0;
+        flex-direction: row;
+        a{
+            color: white;
+            margin: 0 10px;
+        }
+    }
+}

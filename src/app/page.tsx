@@ -6,6 +6,7 @@ import Contact from "@/components/Contact";
 import Resultats from "@/components/Resultats";
 import Reseau from "@/components/Reseau";
 import Footer from "@/components/Footer";
+import Test from "@/components/Test";
 
 
 const Home: React.FC = () => {
