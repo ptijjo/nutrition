@@ -6,13 +6,6 @@ interface produits{
     description: string;
 }
 
-interface Detox{
-    id: number;
-    nom: string;
-    imageUrl: string;
-    description: string;
-}
-
 interface Avis {
     id: number;
     nom: string;
@@ -71,43 +64,41 @@ export const avis: Avis[] = [
         id: 1,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0002.jpg",
-        avis: ""
+        avis: "J'ai perdu du ventre"
     },
     {
         id: 2,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0003.jpg",
-        avis: ""
+        avis: "J'ai pris du muscle"
     },
     {
         id: 3,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0004.jpg",
-        avis: ""
+        avis: "Je me suis raffermie"
+    },
+    {
+        id: 4,
+        nom: "",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0011.jpg",
+        avis: "Mes cheveux ont poussé"
+    },
+    {
+        id: 5,
+        nom: "",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0012.jpg",
+        avis: "J'ai plus la galle"
+    },
+    {
+        id: 6,
+        nom: "",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0013.jpg",
+        avis: "J'ai moins de boutons"
     },
 
 ];
 
-export const tox: Detox[] = [
-    {
-        id: 1,
-        nom: "",
-        imageUrl: "/pictures/detox/IMG-20240117-WA0011.jpg",
-        description: ""
-    },
-    {
-        id: 2,
-        nom: "",
-        imageUrl: "/pictures/detox/IMG-20240117-WA0012.jpg",
-        description: ""
-    },
-    {
-        id: 3,
-        nom: "",
-        imageUrl: "/pictures/detox/IMG-20240117-WA0013.jpg",
-        description: ""
-    },
-];
 
 export const profil: Profil = {
     imageUrl: "/pictures/profilChoups.jpeg",

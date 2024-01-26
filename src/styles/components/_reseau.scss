@@ -3,4 +3,26 @@
     position: fixed;
     top: 30%;
     left: 0;
+    width: 10vw;
+    
+
+    @include centrer-div;
+    flex-direction: column;
+
+    background-color: black;
+    opacity: 60%;
+
+    border-radius: 12px;
+
+    a{
+        display: flex;
+        @include centrer-div;
+
+        .fonts{
+            margin: 10px;
+            color: white;
+        }
+    }
+
+    
 }

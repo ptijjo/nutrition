@@ -6,19 +6,21 @@ import Contact from "@/components/Contact";
 import Resultats from "@/components/Resultats";
 import Reseau from "@/components/Reseau";
 import Footer from "@/components/Footer";
-import Test from "@/components/Test";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+
 
 
 const Home: React.FC = () => {
   return (
     <>
       <Header />
-
+      <Reseau/>
       <Presentation />
       <Resultats />
       <Products />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   )
 }

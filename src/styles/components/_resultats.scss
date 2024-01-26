@@ -4,26 +4,24 @@
     @include centrer-div;
     flex-direction: column;
 
-    .titre{
-        color: blueviolet;
-        margin-top: 15%;
-        
+    .moncarousel{
+        width: 90%;
+        .thumbs-wrapper {
+            display: none;
+            margin: 0;
+          }
     }
 
-    .avant_apres-detox{
-        @include centrer-div;
-        flex-direction: row;
+    p.description{
         width: 100%;
-        justify-content: space-between;
-
-        font-size: large;
-
-        .avant_apres{
-
-        }
-
-        .detox{
-
-        }
+        @include centrer-div;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        background-color: black;
+        color: white;
+        opacity: 60%;
     }
+
+   
 }

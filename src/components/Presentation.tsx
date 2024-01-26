@@ -2,7 +2,9 @@ import React from 'react';
 import { profil } from '@/data/Data';
 
 
+
 const Presentation: React.FC = () => {
+
   return (
     <div className='presentation' id='presentation'>
       <div className='photo_presentation'>
