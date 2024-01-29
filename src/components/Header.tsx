@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <nav className='navigation'>
         <ul className='menu_nav'>
           <li><a href="#products">Produits</a></li>
-          <li><a href="#resultats">Avis</a></li>
+          <li><a href="#resultats">Challengers</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>

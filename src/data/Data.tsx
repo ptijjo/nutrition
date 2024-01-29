@@ -64,7 +64,7 @@ export const avis: Avis[] = [
         id: 1,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0002.jpg",
-        avis: "J'ai perdu du ventre"
+        avis: "J'ai perdu du gras du bide"
     },
     {
         id: 2,
