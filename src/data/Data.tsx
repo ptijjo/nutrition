@@ -1,9 +1,10 @@
 
-interface produits{
+export interface produits {
     id: number;
     nom: string;
     imageUrl: string;
     description: string;
+    imageDescription: string;
 }
 
 interface Avis {
@@ -23,37 +24,43 @@ export const products: produits[] = [
         id: 1,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0001.jpg",
-        description: "Bruleur de grisse pour les gros ventres"
+        description: "Bruleur de grisse pour les gros ventres",
+        imageDescription: ""
     },
     {
         id: 2,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0002.jpg",
-        description: "Thé pour avoir le ventre plat"
+        description: "Thé pour avoir le ventre plat",
+        imageDescription: ""
     },
     {
         id: 3,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0003.jpg",
-        description: "Omega3 pour bien faire caca"
+        description: "Omega3 pour bien faire caca",
+        imageDescription: ""
     },
     {
         id: 4,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0004.jpg",
-        description: "Baies pour drainer ton corps des saletés"
+        description: "Baies pour drainer ton corps des saletés",
+        imageDescription: "/pictures/produits/IMG-20240108-WA0007.jpg"
     },
     {
         id: 5,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0005.jpg",
-        description: "Barre protéinés pour avoir de la force"
+        description: "Barre protéinés pour avoir de la force",
+        imageDescription: ""
     },
     {
         id: 6,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0006.jpg",
-        description: "Baie pour manger moins et dégonfler le ventre"
+        description: "Baie pour manger moins et dégonfler le ventre",
+        imageDescription: ""
     },
 
 

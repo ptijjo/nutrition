@@ -2,26 +2,15 @@
     width: 100vw;
     height: 100vh;
     @include centrer-div;
-    flex-direction: column;
+    flex-direction: column; 
+    overflow: hidden;
 
-    .moncarousel{
-        width: 90%;
-        .thumbs-wrapper {
-            display: none;
-            margin: 0;
-          }
+    &__container{
+        display: flex;
+
+        &__slide{
+            flex: 0 0 100%;
+            min-width: 0;
+        }
     }
-
-    p.description{
-        width: 100%;
-        @include centrer-div;
-        position: absolute;
-        top: 60%;
-        left: 0%;
-        background-color: black;
-        color: white;
-        opacity: 60%;
-    }
-
-   
 }

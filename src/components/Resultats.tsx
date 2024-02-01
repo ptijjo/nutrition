@@ -1,37 +1,29 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import { avis } from '@/data/Data';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-interface MyCarouselProps {
+const Resultats: React.FC = () => {
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 2000 })])
 
-    showIndicators?: boolean;
-    autoPlay?: boolean;
-    interval?: number;
-    infiniteLoop?: boolean;
-}
+    useEffect(() => {
+        if (emblaApi) {
+            console.log(emblaApi.slideNodes())
+        }
+    }, [emblaApi])
 
-const Resultats: React.FC<MyCarouselProps> = ({
-    showIndicators = true,
-    autoPlay = true,
-    interval = 2000,
-    infiniteLoop = true,
-}) => {
-
-   
     return (
-        <div className='resultats' id='resultats'>
-                <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} className='moncarousel'>
-                    {
-                        avis.map((slide) => (
-                            <div key={slide.id} className='photo'>
-                                <img src={slide.imageUrl} alt={slide.nom} />
-                                <p className='description'>{slide.avis}</p>
-                            </div>
-                        ))
-                    }
-                </Carousel>
+        <div className='resultats' id='resultats' ref={emblaRef}>
+            <div className='resultats__container'>
+                {avis.map((perso) => (
+                    <div className='resultats__container__slide' key={perso.id}>
+                        <img src={perso.imageUrl} alt={perso.nom} />
+                        <p>{perso.avis}</p>
+                    </div>
+                ))}
+            </div>
+
         </div>
     )
 }

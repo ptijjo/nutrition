@@ -4,67 +4,17 @@
     @include centrer-div;
     flex-direction: column;
     background-color: beige;
-    
+    overflow: hidden;
 
-   .carousel-root{
-        width: 80%;
-        margin-top: 15%;
+    &__container{
+        display: flex;
 
-        @include centrer-div;
-        flex-direction: column;
-    }
-
-    p.description{
-        width: 100%;
-        @include centrer-div;
-        position: absolute;
-        top: 60%;
-        left: 0%;
-        background-color: black;
-        color: white;
-        opacity: 60%;
-    }
-
-    div.carousel.carousel-slider{
-
-        &:hover{
-            p.description{
-               
-            }
+        &__slide{
+            flex: 0 0 100%;
+            min-width: 0;
         }
     }
-}
 
-.carousel-status{
-    display: none;
-}
-
-/*div.modal.MuiModal-root.css-79ws1d-MuiModal-root{
-    @include centrer-div;
-    background-color: white;
-    width: 60%;
-    height: 60%;
-    opacity: 50%;
-
-    div.MuiBackdrop-root.MuiModal-backdrop.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
-        width: 60%;
-    }
-}*/
-
-
-
-
-
-@media screen and (min-width:768px) and (max-width:1023px){
-    
-  .carousel-root{
-    .carousel{
-        .control-dots{
-            .dot{
-                width: 20px;
-                height: 20px;
-            }
-        }
-    }
-  }
+  
+  
 }

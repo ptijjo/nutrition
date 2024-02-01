@@ -1,4 +1,5 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
+
 
 export const metadata: Metadata = {
   title: 'Site Choupette',
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body >{children}</body>
+      <body >
+        
+        {children}
+      </body>
     </html>
   )
 }
