@@ -12,7 +12,7 @@ interface MyCarouselProps {
     infiniteLoop?: boolean;
   }
 
-const Resultats: React.FC = ({
+const Resultats: React.FC<MyCarouselProps> = ({
     showIndicators = true,
     autoPlay = true,
     interval = 2000,
