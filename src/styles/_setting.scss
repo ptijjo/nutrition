@@ -1,7 +1,13 @@
 
 //Colors
-$primary_color: rgb(87, 10, 87);
+$primary_color: rgb(48, 1, 48);
 $secondary_color: rgb(214, 214, 214);
+
+$black_color:black;
+
+$background_color1:#f8f7f4;
+$background_color2:#FFFFF0;
+$background_color3: #F4F1F8;
 
 //Agencement
 
@@ -34,9 +40,9 @@ body {
   justify-content: center;
   align-items: center;
 
-  a:visited{
+ /* a:visited{
     color: black;
-  }
+  }*/
   a:hover{
     cursor: pointer;
   }

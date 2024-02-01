@@ -8,9 +8,9 @@ const Header: React.FC = () => {
       </span>
       <nav className='navigation'>
         <ul className='menu_nav'>
-          <li><a href="#products">Produits</a></li>
-          <li><a href="#resultats">Challengers</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#products" className='lien_menu'>Produits</a></li>
+          <li><a href="#resultats"className='lien_menu'>Challengers</a></li>
+          <li><a href="#contact"className='lien_menu'>Contact</a></li>
         </ul>
       </nav>
     </div>

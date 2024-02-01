@@ -4,13 +4,79 @@
     @include centrer-div;
     flex-direction: column; 
     overflow: hidden;
+    background-color: $background_color2;
 
-    &__container{
-        display: flex;
+ //Carousel container
+ .carousel-root{
+    width: 80vw;
+    height: auto;
+    @include centrer-div;
+    flex-direction: column;
+    margin: 30% 0 0 0;
+}
 
-        &__slide{
-            flex: 0 0 100%;
-            min-width: 0;
+// Slider carousel grande image 
+.carousel-slider{
+    @include centrer-div;
+    flex-direction: column;
+
+
+    //bouton dot
+    .control-dots{
+        display: none;
+    }
+
+    //Cadre de la photo
+    .slider-wrapper{
+
+        //Cadre des slides
+        .slider{
+
+            .slide{
+                .photo{
+                    width: 100%;
+                    height: 100%;
+                    @include centrer-div;
+
+                    .image-slider{
+                        object-fit: cover;
+                        object-position: center center;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    .description{
+                        position: absolute;
+                        top: 80%;
+                        background-color: black;
+                        color: white;
+                        opacity: 60%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    //bouton de navigation
+    .control-arrow{
+        display: none;
+    }
+
+    //numéro du slide
+    .carousel-status{
+        display: none;
+    }
+
+}
+
+//slider carousel petite image
+.carousel{
+    .thumbs-wrapper{
+
+        .thumbs{
+            display: none;
         }
     }
+}
 }

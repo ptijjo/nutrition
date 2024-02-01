@@ -110,3 +110,4 @@ export const avis: Avis[] = [
 export const profil: Profil = {
     imageUrl: "/pictures/profilChoups.jpeg",
 }
+

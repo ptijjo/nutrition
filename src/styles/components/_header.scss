@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: white;
+    background-color: $black_color;
 
     z-index:100;
     
@@ -23,6 +23,10 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            
+            .lien_menu{
+                color: white;
+            }
         }
     }
 
