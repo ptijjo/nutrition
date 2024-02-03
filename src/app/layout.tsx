@@ -1,4 +1,7 @@
+
+import initScrollReveal from '@/components/ScrollRevealConfig';
 import type { Metadata } from 'next';
+import { useEffect } from 'react';
 
 
 export const metadata: Metadata = {
@@ -11,10 +14,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="fr">
       <body >
-        
+
         {children}
       </body>
     </html>

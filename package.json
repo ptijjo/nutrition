@@ -19,7 +19,6 @@
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "sass": "^1.69.7",
-    "scrollreveal": "^4.0.9",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.10.4",
     "swiper": "^11.0.5"

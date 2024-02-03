@@ -5,7 +5,6 @@
     left: 0;
     width: 10vw;
     
-
     @include centrer-div;
     flex-direction: column;
 
@@ -21,6 +20,7 @@
         .fonts{
             margin: 10px;
             color: white;
+            width: 50%;
         }
     }
 
