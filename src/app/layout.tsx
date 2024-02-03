@@ -1,7 +1,5 @@
-
-import initScrollReveal from '@/components/ScrollRevealConfig';
 import type { Metadata } from 'next';
-import { useEffect } from 'react';
+
 
 
 export const metadata: Metadata = {
