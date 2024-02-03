@@ -29,17 +29,17 @@ const Products: React.FC<MyCarouselProps> = ({
           products.map((slide) => (
             <div key={slide.id} className='photo' onClick={() => {
               Swal.fire({
-                  imageUrl: `${slide.imageDescription}`,
-                  imageWidth: "100%",
-                  //imageHeight: "100%",
-                  imageAlt: "Custom image",
-                  width: "100%",
-                  padding: "0",
-                  grow: "fullscreen"
+                imageUrl: `${slide.imageDescription}`,
+                imageWidth: "100%",
+                //imageHeight: "100%",
+                imageAlt: "Custom image",
+                width: "100%",
+                padding: "0",
+                grow: "fullscreen"
 
               });
-          }}>
-              <img src={slide.imageUrl} alt={slide.nom}  className='image-slider'/>
+            }}>
+              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' />
               <p className='description'>{slide.description}</p>
             </div>
           ))

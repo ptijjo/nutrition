@@ -3,8 +3,9 @@
     height: 100vh;
     @include centrer-div;
     flex-direction: column;
-    background-color: $background_color3;
+    //background-color: $background_color3;
     overflow: hidden;
+    visibility: hidden;
 
     //Carousel container
     .carousel-root{
@@ -13,9 +14,7 @@
         @include centrer-div;
         flex-direction: column;
         margin: 30% 0 0 0;
-    }
-
-    // Slider carousel grande image 
+         // Slider carousel grande image 
     .carousel-slider{
         @include centrer-div;
         flex-direction: column;
@@ -73,6 +72,9 @@
     //slider carousel petite image
     .carousel{
 
+ }
     }
+
+
 
 }

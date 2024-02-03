@@ -1,8 +1,6 @@
 import React from 'react';
 import { profil } from '@/data/Data';
 
-
-
 const Presentation: React.FC = () => {
 
   return (

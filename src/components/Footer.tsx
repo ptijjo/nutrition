@@ -8,7 +8,9 @@ const Footer: React.FC = () => {
             </p>
 
             <span className='condition-politique'>
-                <a href="https://www.juiceplus.com/fr/fr/disclaimer" target="_blank" rel="noopener noreferrer" className='condition'>Condition d'utilisation</a> | <a href="https://www.juiceplus.com/fr/fr/privacy-policy" target="_blank" rel="noopener noreferrer" className='politique'>Politique de confidentialité</a>
+                <a href="https://www.juiceplus.com/fr/fr/disclaimer" target="_blank" rel="noopener noreferrer" className='condition'>Condition d'utilisation</a>
+                <p> | </p>
+                <a href="https://www.juiceplus.com/fr/fr/privacy-policy" target="_blank" rel="noopener noreferrer" className='politique'>Politique de confidentialité</a>
             </span>
         </div>
     )

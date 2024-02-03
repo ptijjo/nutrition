@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { avis } from '@/data/Data';
 
+
 interface MyCarouselProps {
 
     showIndicators?: boolean;
@@ -17,8 +18,8 @@ const Resultats: React.FC<MyCarouselProps> = ({
     autoPlay = true,
     interval = 2000,
     infiniteLoop = true,
-  }) => {
-    
+}) => {
+ 
 
     return (
         <div className='resultats' id='resultats'>

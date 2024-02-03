@@ -4,7 +4,8 @@
     @include centrer-div;
     flex-direction: column; 
     overflow: hidden;
-    background-color: $background_color2;
+    //background-color: $background_color2;
+    visibility: hidden;
 
  //Carousel container
  .carousel-root{
