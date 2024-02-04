@@ -7,21 +7,31 @@
     height: 20vh;
     background-color: black;
     opacity: 65%;
-    color: white;
+    color: black;
 
     .presentation{
         margin: 0;
         @include centrer-div;
         text-align: center;
+        background: black;
+        color: white
+        
     }
     .condition-politique{
         @include centrer-div;
-        padding: 10px 0;
+        padding: 15px 0;
         flex-direction: row;
         justify-content: space-around;
-        a{
+        margin: 0;
+        .condition , .politique{
             color: white;
             margin: 0 10px;
+        }
+
+        .separateur{
+            @include centrer-div;
+            color: white;
+            
         }
     }
 }
