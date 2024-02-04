@@ -5,7 +5,14 @@
     flex-direction: column;
     //background-color: $background_color3;
     overflow: hidden;
+    background-color: transparent;
+    //background-image: url("");
+    background-position: center center;
+
     
+    .products-titre{
+        margin: 40px 0 20px 0;
+    }
 
     //Carousel container
     .carousel-root{
@@ -13,7 +20,7 @@
         height: auto;
         @include centrer-div;
         flex-direction: column;
-        margin: 30% 0 0 0;
+        margin: 10% 0 0 0;
          // Slider carousel grande image 
     .carousel-slider{
         @include centrer-div;

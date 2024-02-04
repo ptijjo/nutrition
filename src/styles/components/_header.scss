@@ -33,15 +33,15 @@
     .logo-content{
         width: 20%;
         aspect-ratio: 1/1;
-        border-radius: 50%;
+       // border-radius: 50%;
         @include centrer-div;
 
         .logo{
-            object-fit: cover;
+            object-fit: scale-down;
             object-position: center center;
-            width: 80%;
-            height: 80%;
-            border-radius: 50%;
+            width: 90%;
+            height: 90%;
+           // border-radius: 50%;
         }
     }
 }

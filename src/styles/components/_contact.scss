@@ -5,6 +5,29 @@
     @include centrer-div;
 
     flex-direction: column;
+
+    background-image: url("/pictures/image-nitrition/coeur-nutrition-holistique-768x674.jpg");
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    a{
+        width: 100%;
+
+        .btn-bilan{
+
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 50%;
+            aspect-ratio: 4/1;
+            padding: 5px;
+            margin-top: 20%;
+            background-color: $primary-color;
+            color: white;
+            text-align: center;
+            @include centrer-div;
+        }
+    }
     
     
 }

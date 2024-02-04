@@ -31,8 +31,8 @@ export const products: produits[] = [
         id: 2,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0002.jpg",
-        description: "Thé pour avoir le ventre plat",
-        imageDescription: ""
+        description: "La boisson du bien-être (Préparée avec du lait d'origine végétale) ...",
+        imageDescription: "/pictures/produits/IMG-20240108-WA0009.jpg"
     },
     {
         id: 3,
@@ -52,8 +52,8 @@ export const products: produits[] = [
         id: 5,
         nom: "",
         imageUrl: "/pictures/produits/IMG-20240108-WA0005.jpg",
-        description: "Barre protéinés pour avoir de la force",
-        imageDescription: ""
+        description: "Une barre pour un style de vie actif et un goût délicieux ...",
+        imageDescription: "/pictures/produits/IMG-20240108-WA0008.jpg"
     },
     {
         id: 6,
@@ -64,6 +64,7 @@ export const products: produits[] = [
     },
 
 
+
 ];
 
 export const avis: Avis[] = [
@@ -71,13 +72,13 @@ export const avis: Avis[] = [
         id: 1,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0002.jpg",
-        avis: "J'ai perdu du gras du bide"
+        avis: "-15Kg"
     },
     {
         id: 2,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0003.jpg",
-        avis: "J'ai pris du muscle"
+        avis: "-8kg"
     },
     {
         id: 3,
@@ -101,6 +102,12 @@ export const avis: Avis[] = [
         id: 6,
         nom: "",
         imageUrl: "/pictures/resultats/IMG-20240117-WA0013.jpg",
+        avis: "J'ai moins de boutons"
+    },
+    {
+        id: 7,
+        nom: "",
+        imageUrl: "/pictures/resultats/IMG-20240117-WA0005.jpg",
         avis: "J'ai moins de boutons"
     },
 

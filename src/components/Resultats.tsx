@@ -7,35 +7,43 @@ import { avis } from '@/data/Data';
 
 interface MyCarouselProps {
 
-    showIndicators?: boolean;
-    autoPlay?: boolean;
-    interval?: number;
-    infiniteLoop?: boolean;
-  }
+  showIndicators?: boolean;
+  autoPlay?: boolean;
+  interval?: number;
+  infiniteLoop?: boolean;
+  showArrows?: boolean;
+  ariaLabel: string;
+}
 
 const Resultats: React.FC<MyCarouselProps> = ({
-    showIndicators = true,
-    autoPlay = true,
-    interval = 2000,
-    infiniteLoop = true,
+  showIndicators = true,
+  autoPlay = true,
+  interval = 2000,
+  infiniteLoop = true,
+  showArrows = false,
+  ariaLabel = "resultats après challenge"
 }) => {
- 
 
-    return (
-        <div className='resultats' id='resultats'>
-            <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop}>
+
+  return (
+    <div className='resultats' id='resultats'>
+      <div className='proverbe'>
+        <img src="/pictures/image-nitrition/proverbe-alimentation.png" alt="" />
+      </div>
+
+      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showArrows={showArrows} ariaLabel={ariaLabel}>
         {
           avis.map((slide) => (
             <div key={slide.id} className='photo'>
-              <img src={slide.imageUrl} alt={slide.nom}  className='image-slider'/>
+              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' />
               <p className='description'>{slide.avis}</p>
             </div>
           ))
         }
       </Carousel>
 
-        </div>
-    )
+    </div>
+  )
 }
 
 export default Resultats
