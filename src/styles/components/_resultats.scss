@@ -5,8 +5,7 @@
     flex-direction: column; 
     overflow: hidden;
     background-color: transparent;
-    background-image: linear-gradient($primary_color,$black_color);
-    background-position: center center;
+    background-image: linear-gradient(rgb(253, 193, 253),white);
 
     .proverbe{
         background-color: $black_color;
