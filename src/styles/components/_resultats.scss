@@ -4,19 +4,21 @@
     @include centrer-div;
     flex-direction: column; 
     overflow: hidden;
-    background-color: transparent;
-    background-image: url("/pictures/image-nitrition/nutrition.png");
-    background-position: center center;
+   // background-color: transparent;
+    //background-image: url("/pictures/image-nitrition/nutrition.png");
+   // background-position: center center;
 
     .proverbe{
         background-color: $black_color;
         width: 80vw;
         height: 22%;
+        border-radius: 12px;
         img{
             width: max-content;
             height: max-content;
             object-fit: cover;
             object-position: center;
+            border-radius: 12px;
            
         }
     }
