@@ -79,7 +79,12 @@
     //slider carousel petite image
     .carousel{
 
- }
+        .thumbs-wrapper{
+            .control-arrow{
+                display: none;
+            }
+        }
+        }
     }
 
 
