@@ -12,7 +12,6 @@ interface MyCarouselProps {
   interval?: number;
   infiniteLoop?: boolean;
   showArrows?: boolean;
-  ariaLabel: string;
 }
 
 const Resultats: React.FC<MyCarouselProps> = ({
@@ -21,7 +20,6 @@ const Resultats: React.FC<MyCarouselProps> = ({
   interval = 2000,
   infiniteLoop = true,
   showArrows = false,
-  ariaLabel = "resultats après challenge"
 }) => {
 
 
@@ -31,7 +29,7 @@ const Resultats: React.FC<MyCarouselProps> = ({
         <img src="/pictures/image-nitrition/proverbe-alimentation.png" alt="" />
       </div>
 
-      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showArrows={showArrows} ariaLabel={ariaLabel}>
+      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showArrows={showArrows}>
         {
           avis.map((slide) => (
             <div key={slide.id} className='photo'>
