@@ -18,6 +18,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: transparent;
+    background-image: linear-gradient($black_color,$primary_color);
+    background-position: center center;
 
         .cadre_photo{
             @include centrer-div;
