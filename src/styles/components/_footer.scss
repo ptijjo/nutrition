@@ -25,12 +25,12 @@
         margin: 0;
         .condition , .politique{
             color: white;
-            margin: 0 10px;
         }
 
         .separateur{
             @include centrer-div;
             color: white;
+            margin: 0 10px;
             
         }
     }
