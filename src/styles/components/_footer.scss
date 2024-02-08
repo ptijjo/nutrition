@@ -23,14 +23,16 @@
         flex-direction: row;
         justify-content: space-around;
         margin: 0;
+        width: 100vw;
         .condition , .politique{
             color: white;
+            margin: 0;
         }
 
         .separateur{
             @include centrer-div;
             color: white;
-            margin: 0 10px;
+            margin: 0;
             
         }
     }
