@@ -1,7 +1,7 @@
 
 import * as React from "react";
 import Header from "@/components/Header";
-import "../styles/index.scss";
+import "../styles/css/index.css";
 import Presentation from "@/components/Presentation";
 import Products from "@/components/Products";
 import Contact from "@/components/Contact";
