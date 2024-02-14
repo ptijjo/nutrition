@@ -12,15 +12,25 @@ const Presentation: React.FC = () => {
       </div>
       <div className='about_me'>
         <span className='description'>
-          <p className='paragraphe'>Je m'appelle Émilie </p>
-          <p className='paragraphe'>J'ai accompagné des hommes et des femmes situés en Afrique, en Europe et en Amérique à se remettre en forme durablement !</p>
-          <p className='paragraphe'>✨✅ CE EN QUOI JE CROIS ✅</p>
-          <p className='paragraphe'>🥗 Une alimentation équilibrée est une alimentation PLAISIR, SAINE et GOURMANDE ; </p>
-          <p className='paragraphe'>👩‍🍳 Il n'est pas nécessaire de passer des heures en cuisine ni même de cuisiner des aliments frais 100 % du temps (moi même je suis loin d'être une top chef) ;</p>
-          <p className='paragraphe'>🚶‍♀️ L'activité physique est importante pour votre équilibre, votre santé et bien sûr le côté esthétique ! Cela ne veut pas dire que vous devez être des athlètes.       Marcher est déjà un excellent début !</p>
-          <p className='paragraphe'>🧐 Atteindre son objectif c'est bien, mais conserver un mode de vie sain et apprendre à manger pour toute la vie c'est encore mieux (on évite l'effet yoyo! )</p>
-          <p className='paragraphe'>🙏 Un accompagnement réussi, passe par une confiance, une entente et un non jugement!</p>
-          <p className='paragraphe'>#challengeshevolve</p>
+          <p className='paragraphe'>Coucou ! Moi , c’est Émilie Denise</p>
+
+          <p className='paragraphe'>Je suis Ambassadrice d'un programme de RÉÉQUILIBRAGE ALIMENTAIRE 🍉🥑
+
+            et j'ai accompagné un bon nombre de personnes peu partout à changer leur silhouette et atteindre leur objectif ! ☺</p><br/>
+
+          
+            <h3 className='sousTitre'>✅Ce en quoi je crois✅</h3>
+
+            <p className='paragraphe'>- Adopter une alimentation saine et équilibrée 🥗</p>
+            <p className='paragraphe'>⁠- Avoir une activité physique régulière 🚶🏽‍♀</p>
+            <p className='paragraphe'>⁠- Atteindre son objectif ET conserver un mode de vie sain ✨</p><br/>
+          
+
+          <h3 className='sousTitre'>Alors aies confiance au process et rejoins nous !</h3><br />
+
+          <p className='paragraphe bleu'>«Let your food be your medecine»</p>
+
+          <p className='paragraphe bleu'>#challengeshevolve</p>
         </span>
       </div>
     </div>

@@ -6,8 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
-    background-image: linear-gradient(white,rgb(201, 189, 201));
+    background-color: rgb(255, 255, 255);
 
 
     .photo_presentation{
@@ -48,8 +47,20 @@
 
             .paragraphe{
                 width: 100%;
-                padding: 0 15px;
-                font-size: small;
+                //padding: 0 15px;
+                //ont-size: small;
+                text-align: center;
+            }
+
+            .sousTitre{
+                width: 100%;
+                font-size: large;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .bleu{
+                color:rgb(71, 1, 71)
             }
         }
     }

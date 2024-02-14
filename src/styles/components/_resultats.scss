@@ -2,25 +2,8 @@
     width: 100vw;
     height: 100vh;
     @include centrer-div;
-    flex-direction: column; 
     overflow: hidden;
-    background-color: rgb(201, 189, 201);
-    
-
-    .proverbe{
-        background-color: $black_color;
-        width: 80vw;
-        height: 22%;
-        border-radius: 12px;
-        img{
-            width: max-content;
-            height: max-content;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 12px;
-           
-        }
-    }
+    background-color: rgb(255, 255, 255);
     
 
  //Carousel container
@@ -29,7 +12,7 @@
     height: auto;
     @include centrer-div;
     flex-direction: column;
-   // margin: 30% 0 0 0;
+    //margin: -50% 0 0 0;
 }
 
 // Slider carousel grande image 

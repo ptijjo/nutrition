@@ -1,7 +1,7 @@
 
 import * as React from "react";
 import Header from "@/components/Header";
-import "../styles/css/index.css";
+import "../styles/index.scss";
 import Presentation from "@/components/Presentation";
 import Products from "@/components/Products";
 import Contact from "@/components/Contact";
@@ -15,14 +15,14 @@ const Home: React.FC = () => {
 
   return (
     <>
-      
-        <Header />
-        <Reseau />
-        <Presentation />
-        <Resultats />
-        <Products />
-        <Contact />
-        <Footer />
+
+      <Header />
+      <Reseau />
+      <Presentation />
+      <Resultats />
+      <Products />
+      <Contact />
+      <Footer />
     </>
   )
 }

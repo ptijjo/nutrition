@@ -23,7 +23,7 @@ $background_color3: #F4F1F8;
     min-width: 0;
     font: inherit;
     text-decoration: none;
-    list-style: none;
+    list-style:none;
     margin: 0 auto;
     padding: 0;
   }
@@ -49,7 +49,7 @@ body {
 }
 
 p{
-  text-wrap: pretty;
+  text-wrap: stable;
 }
 h1,h2,h3,h4,h5,h6{
   text-wrap: balance;

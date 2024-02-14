@@ -19,16 +19,13 @@ const Resultats: React.FC<MyCarouselProps> = ({
   autoPlay = true,
   interval = 2000,
   infiniteLoop = true,
-  
+
 }) => {
 
 
   return (
     <div className='resultats' id='resultats'>
-      <div className='proverbe'>
-        <img src="/pictures/image-nitrition/proverbe-alimentation.png" alt="" />
-      </div>
-
+      
       <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} >
         {
           avis.map((slide) => (
