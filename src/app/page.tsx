@@ -4,9 +4,9 @@ import * as React from "react";
 import "../styles/index.scss";
 import Presentation from "@/components/Presentation";
 //import Products from "@/components/Products";
-import Contact from "@/components/Contact";
+//import Contact from "@/components/Contact";
 //import Resultats from "@/components/Resultats";
-import Footer from "@/components/Footer";
+
 import Reseau from "@/components/Reseau";
 
 import dynamic from 'next/dynamic'
@@ -15,22 +15,19 @@ import dynamic from 'next/dynamic'
 const Header = dynamic(() => import('@/components/Header'))
 const Products = dynamic(() => import('@/components/Products'))
 const Resultats = dynamic(() => import('@/components/Resultats'))
-
+const Contact = dynamic(() => import('@/components/Contact'))
 
 const Home: React.FC = () => {
 
 
   return (
-    <>
-
-      <Header />
+    <main>
       <Reseau />
       <Presentation />
       <Resultats />
       <Products />
       <Contact />
-      <Footer />
-    </>
+    </main>
   )
 }
 

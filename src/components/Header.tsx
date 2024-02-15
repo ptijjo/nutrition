@@ -1,12 +1,11 @@
 import React from 'react';
-import Image from 'next/image';
-import Logo from "../../public/pictures/logo.png";
+
 
 const Header: React.FC = () => {
   return (
-    <div className='header'>
+    <header className='header'>
       <span className='logo-content'>
-        <Image src={Logo} alt="logo juice+" className='logo' width={200} height={200} placeholder='blur'/>
+        <img src="/pictures/logo.png" alt="logo juice+" className='logo' width={200} height={200} />
       </span>
       <nav className='navigation'>
         <ul className='menu_nav'>
@@ -15,7 +14,7 @@ const Header: React.FC = () => {
           <li><a href="#contact" className='lien_menu' aria-label="Aller sur la page contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
   )
 }
 

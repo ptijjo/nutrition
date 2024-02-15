@@ -3,7 +3,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { avis } from '@/data/Data';
-import Image from 'next/image';
+
 
 
 interface MyCarouselProps {
@@ -34,7 +34,7 @@ const Resultats: React.FC<MyCarouselProps> = ({
         {
           avis.map((slide) => (
             <div key={slide.id} className='photo'>
-              <Image src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800} />
+              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800} />
               <p className='description'>{slide.avis}</p>
             </div>
           ))

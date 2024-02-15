@@ -4,7 +4,7 @@ import { products } from '@/data/Data';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Swal from 'sweetalert2';
-import Image from 'next/image';
+
 
 interface MyCarouselProps {
 
@@ -44,7 +44,7 @@ const Products: React.FC<MyCarouselProps> = ({
 
               });
             }}>
-              <Image src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800}/>
+              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800}/>
               <p className='description'>{slide.description}</p>
             </div>
           ))
