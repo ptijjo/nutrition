@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Header: React.FC = () => {
   return (
     <div className='header'>
       <span className='logo-content'>
-        <img src="pictures/logo.png" alt="logo juice+" className='logo' />
+        <Image src="/pictures/logo.png" alt="logo juice+" className='logo' width={200} height={200}/>
       </span>
       <nav className='navigation'>
         <ul className='menu_nav'>

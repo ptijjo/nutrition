@@ -16,10 +16,10 @@ const Presentation: React.FC = () => {
 
           <p className='paragraphe'>Je suis Ambassadrice d'un programme de RÉÉQUILIBRAGE ALIMENTAIRE 🍉🥑
 
-            et j'ai accompagné un bon nombre de personnes peu partout à changer leur silhouette et atteindre leur objectif ! ☺</p><br/>
+            et j'ai accompagné un bon nombre de personnes un peu partout à changer leur silhouette et atteindre leur objectif ! ☺</p><br/>
 
           
-            <h3 className='sousTitre'>✅Ce en quoi je crois✅</h3>
+            <h3 className='sousTitre'>✅CE EN QUOI JE CROIS✅</h3>
 
             <p className='paragraphe'>- Adopter une alimentation saine et équilibrée 🥗</p>
             <p className='paragraphe'>⁠- Avoir une activité physique régulière 🚶🏽‍♀</p>

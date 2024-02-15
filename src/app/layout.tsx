@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import "../styles/css/index.css"
+import "../styles/index.scss"
 
 
 export const metadata: Metadata = {
-  title: 'Site Choupette',
-  description: 'Nutrition',
+  title: 'Nutrition saine',
+  description: 'Nutrition , Remise en forme, Perte de poids, détox, Prise de masse, Rééquilibrage alimentaire, sport, renforcement musculaire, complément alimentaire',
 }
 
 export default function RootLayout({

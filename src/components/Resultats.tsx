@@ -3,6 +3,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { avis } from '@/data/Data';
+import Image from 'next/image';
 
 
 interface MyCarouselProps {
@@ -12,6 +13,7 @@ interface MyCarouselProps {
   interval?: number;
   infiniteLoop?: boolean;
   showArrows?: boolean;
+  showThumbs:boolean
 }
 
 const Resultats: React.FC<MyCarouselProps> = ({
@@ -19,6 +21,7 @@ const Resultats: React.FC<MyCarouselProps> = ({
   autoPlay = true,
   interval = 2000,
   infiniteLoop = true,
+  showThumbs=false
 
 }) => {
 
@@ -26,11 +29,11 @@ const Resultats: React.FC<MyCarouselProps> = ({
   return (
     <div className='resultats' id='resultats'>
       
-      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} >
+      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showThumbs={showThumbs} >
         {
           avis.map((slide) => (
             <div key={slide.id} className='photo'>
-              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' />
+              <Image src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800} />
               <p className='description'>{slide.avis}</p>
             </div>
           ))
