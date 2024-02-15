@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sass":"sass --watch src/styles/index.scss:src/styles/css/index.css",
-    "prefix":"postcss src/styles/css/index.css --use autoprefixer -d src/styles/prefixed"
+    "sass": "sass --watch src/styles/index.scss:src/styles/css/index.css",
+    "prefix": "postcss src/styles/css/index.css --use autoprefixer -d src/styles/prefixed"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -22,6 +22,7 @@
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "sass": "^1.69.7",
+    "sharp": "^0.33.2",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.10.4",
     "swiper": "^11.0.5"
