@@ -30,7 +30,7 @@ const Resultats: React.FC<MyCarouselProps> = ({
   return (
     <div className='resultats' id='resultats'>
       
-      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showThumbs={false} >
+      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showThumbs={showThumbs} >
         {
           avis.map((slide) => (
             <div key={slide.id} className='photo'>

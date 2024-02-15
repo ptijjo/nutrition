@@ -25,11 +25,12 @@
     "sharp": "^0.33.2",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.10.4",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "uninstall": "^0.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.2.55",
     "@types/react-dom": "^18",
     "@types/react-modal": "^3.16.3",
     "@types/react-scroll": "^1.8.10",

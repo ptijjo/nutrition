@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <div className='header'>
       <span className='logo-content'>
-        <Image src={Logo} alt="logo juice+" className='logo' width={100} height={100} placeholder = 'blur'/>
+        <Image src={Logo} alt="logo juice+" className='logo' width={200} height={200} placeholder='blur'/>
       </span>
       <nav className='navigation'>
         <ul className='menu_nav'>
