@@ -12,6 +12,7 @@ interface MyCarouselProps {
   autoPlay?: boolean;
   interval?: number;
   infiniteLoop?: boolean;
+
 }
 
 const Products: React.FC<MyCarouselProps> = ({
