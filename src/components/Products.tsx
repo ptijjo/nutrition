@@ -12,7 +12,6 @@ interface MyCarouselProps {
   autoPlay?: boolean;
   interval?: number;
   infiniteLoop?: boolean;
-  showThumbs?:boolean
 }
 
 const Products: React.FC<MyCarouselProps> = ({
@@ -20,7 +19,7 @@ const Products: React.FC<MyCarouselProps> = ({
   autoPlay = true,
   interval = 2000,
   infiniteLoop = true,
-  showThumbs=false
+
 
 }) => {
 
@@ -29,7 +28,7 @@ const Products: React.FC<MyCarouselProps> = ({
     <div className='products' id='products'>
 
       <h3 className='products-titre'>QU'EST-CE QUE JUICE PLUS+</h3>
-      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop} showThumbs={showThumbs}>
+      <Carousel showIndicators={showIndicators} autoPlay={autoPlay} interval={interval} infiniteLoop={infiniteLoop}>
         {
           products.map((slide) => (
             <div key={slide.id} className='photo' onClick={() => {
