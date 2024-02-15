@@ -12,7 +12,7 @@ interface MyCarouselProps {
   autoPlay?: boolean;
   interval?: number;
   infiniteLoop?: boolean;
-  showThumbs:boolean
+  showThumbs?:boolean
 }
 
 const Products: React.FC<MyCarouselProps> = ({
@@ -20,7 +20,8 @@ const Products: React.FC<MyCarouselProps> = ({
   autoPlay = true,
   interval = 2000,
   infiniteLoop = true,
-  showThumbs= false
+  showThumbs=false
+
 }) => {
 
   return (

@@ -26,8 +26,8 @@ const Home: React.FC = () => {
       <Header />
       <Reseau />
       <Presentation />
-      <Resultats showThumbs={false} />
-      <Products showThumbs={false} />
+      <Resultats />
+      <Products />
       <Contact />
       <Footer />
     </>
