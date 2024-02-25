@@ -44,7 +44,7 @@ const Products: React.FC<MyCarouselProps> = ({
 
               });
             }}>
-              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800}/>
+              <img src={slide.imageUrl} alt={slide.nom} className='image-slider' width={800} height={800} />
               <p className='description'>{slide.description}</p>
             </div>
           ))

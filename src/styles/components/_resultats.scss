@@ -1,9 +1,10 @@
 .resultats{
     width: 100vw;
-    height: 100vh;
+    //height: 100vh;
     @include centrer-div;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
+   
     
 
  //Carousel container
@@ -39,7 +40,7 @@
                     @include centrer-div;
                     .image-slider{
                         object-fit: cover;
-                        object-position: center center;
+                        object-position: center;
                         
                         width: 100%;
                         height: 100%;

@@ -1,16 +1,16 @@
 .products{
     width: 100vw;
-    height: 100vh;
+   //height: 100vh;
     @include centrer-div;
     flex-direction: column;
-    //background-color: $background_color3;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
 
-    
     .products-titre{
         margin: 40px 0 20px 0;
         color: purple;
+        width: 100vw;
+        text-align: center;
     }
 
     //Carousel container
